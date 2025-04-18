@@ -1,0 +1,43 @@
+{
+  "name": "zootify",
+  "version": "1.0.0",
+  "description": "A Spotify-inspired web application for animal-themed music",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/zootify.git"
+  },
+  "keywords": [
+    "music",
+    "animals",
+    "spotify",
+    "web",
+    "player"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/zootify/issues"
+  },
+  "homepage": "https://github.com/yourusername/zootify#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "prettier": "^3.2.5",
+    "vite": "^5.1.0"
+  }
+} 

@@ -2,6 +2,10 @@
 
 A Spotify-inspired web application designed specifically for animal-themed music, featuring a modern, responsive interface with customizable sidebars and an intuitive music player.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/yadhu7050/zootify?style=social)](https://github.com/yadhu7050/zootify/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yadhu7050/zootify?style=social)](https://github.com/yadhu7050/zootify/network/members)
+
 ## Features 🌟
 
 - **Responsive Design**: Fully responsive layout that works on all devices
@@ -25,7 +29,19 @@ A Spotify-inspired web application designed specifically for animal-themed music
   - Fullscreen mode
   - Like/Save songs
 
-## Getting Started 🚀
+## GitHub Pages Deployment 🌐
+
+This project is configured for GitHub Pages deployment. To deploy:
+
+1. Go to your repository settings
+2. Navigate to "Pages" under "Code and automation"
+3. Select the branch you want to deploy (usually `main` or `master`)
+4. Choose the root folder as the source
+5. Save the settings
+
+Your site will be available at: `https://yadhu7050.github.io/zootify/`
+
+## Development Setup 🛠️
 
 ### Prerequisites
 
@@ -36,7 +52,7 @@ A Spotify-inspired web application designed specifically for animal-themed music
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/zootify.git
+git clone https://github.com/yadhu7050/zootify.git
 cd zootify
 ```
 
@@ -60,10 +76,15 @@ http://localhost:3000
 ```
 zootify/
 ├── assets/          # Compiled assets (JS, CSS)
+├── animal-sounds/   # Animal sound assets
 ├── public/          # Static files
-├── src/             # Source files
+│   ├── favicon.ico
+│   ├── placeholder.svg
+│   └── robots.txt
 ├── index.html       # Main HTML file
-└── README.md        # This file
+├── README.md        # Project documentation
+├── LICENSE          # MIT License
+└── .gitignore       # Git ignore rules
 ```
 
 ## Technologies Used 💻
